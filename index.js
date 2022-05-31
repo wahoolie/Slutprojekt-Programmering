@@ -78,35 +78,81 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 1 + 1?',
+    question: 'What is the name of Han Solo’s ship?',
     answers: [
-      { text: '2', correct: true },
-      { text: '22', correct: false }
+      { text: 'Millennium Falcon', correct: true },
+      { text: 'Star Destroyer', correct: false },
+      { text: 'X Wing', correct: false },
+      { text: 'Tie Fighter', correct: false }
     ]
   },
   {
-    question: '2+2',
+    question: 'The young Jedi Knight, Anakin Skywalker, becomes who in Star Wars?',
     answers: [
-      { text: 'Who cares', correct: true },
-      { text: '12', correct: false },
-      { text: '22', correct: false },
-      { text: '4', correct: true }
+      { text: 'Padawan', correct: false },
+      { text: 'Darth Vader', correct: true },
+      { text: 'Obi One', correct: false },
+      { text: 'Palpatine', correct: false }
     ]
   },
   {
-    question: '4+4',
+    question: 'The X-wing fighter has how many engines?',
     answers: [
-      { text: 'Cow', correct: false },
-      { text: 'Horse', correct: true },
-      { text: 'dog', correct: false },
-      { text: 'cat', correct: false }
+      { text: 'Four', correct: true },
+      { text: 'Two', correct: false },
+      { text: 'Eight', correct: false },
+      { text: 'Six', correct: false }
     ]
   },
   {
-    question: '2+4',
+    question: 'Jedi Council consists of how many members?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: '10', correct: false },
+      { text: '12', correct: true }
     ]
-  }
+  },
+  {
+    question: 'Trivia Question: How many languages is C-3P0 fluent in?',
+    answers: [
+      { text: 'Over 6 Million', correct: true },
+      { text: 'under 6 Million', correct: false }
+    ]
+  },
+  {
+    question: 'What was the name of the planet that the clones were made on?',
+    answers: [
+      { text: 'Mustafar', correct: false },
+      { text: 'Kamino', correct: true }
+    ]
+  },
+  {
+    question: 'What is the name of Boba Fett’s ship?',
+    answers: [
+      { text: 'Slave 1', correct: true },
+      { text: 'A/SF-01 B-Wing', correct: false }
+    ]
+  },
+  {
+    question: 'Who killed Han Solo?',
+    answers: [
+      { text: 'Luke', correct: false },
+      { text: 'Kylo', correct: true },
+      { text: 'Leia', correct: false },
+      { text: 'Darth Vader', correct: false }
+    ]
+  },
+  {
+    question: 'Who built C-3P0?',
+    answers: [
+      { text: 'Anakin Skywalker', correct: true },
+      { text: 'Han Solo', correct: false }
+    ]
+  },
+  {
+    question: 'Who is Jango Fett’s son?',
+    answers: [
+      { text: 'Boba', correct: true },
+      { text: 'Jango Junior', correct: false }
+    ]
+  },
 ]
